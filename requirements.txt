@@ -1,0 +1,14 @@
+Flask==3.1.2
+Flask-Bootstrap==3.3.7.1
+Flask-WTF==1.2.2
+Werkzeug==3.1.4
+WTForms==3.2.1
+numpy==2.5.4
+Pillow==13.0.0
+torch==2.14.1
+torchvision==0.29.1
+tqdm==4.66.4
+gunicorn # Using for deployement
+
+Procfile :
+         web : gunicorn --bind :$PORT app:app

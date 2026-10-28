@@ -1,0 +1,35 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+
+# Logs
+*.log
+
+# Datasets
+datasets/
+
+# Training outputs
+experiment/
+experiments/
+outputs/
+checkpoints/
+
+# Model weights and checkpoints
+*.pth
+*.pt
+!vgg_normalised.pth
+
+# OS files
+.DS_Store
+Thumbs.db

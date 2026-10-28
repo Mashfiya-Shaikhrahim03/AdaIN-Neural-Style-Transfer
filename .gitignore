@@ -34,5 +34,6 @@ checkpoints/
 # OS files
 .DS_Store
 Thumbs.db
+
 static/upload/*
 !static/upload/.gitkeep
